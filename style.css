@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    background-color: #222831;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: #EEEEEE;
+    margin: 40px;
+}
+#gameAreaDiv {
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#gameAreaDiv>div{
+    border: solid 1px #31363F;
+    background-color: #76ABAE;
+    width: 100px;
+    height: 100px;
+}
