@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="background-image"><img src="img/peachgomaplaying.jpg" alt=""></div>
     <div class="headerContainer">
         <h1>Tic Tac Toe!</h1>
     </div>
@@ -19,13 +20,18 @@
         <div class="playerTwo"></div>
     </div>
     <div id="gameControlsDiv">
-        <p class="p-player1">❌ - Player One:</p>
-        <p id="p-player1Score">0</p>
-        <p class="p-player2">⭕ - Player Two:</p>
-        <p id="p-player2Score">0</p>
+        <div id="div-scoreArea">
+            <p id="p-currentPlayer">placeholder</p>
+            <button id="button-resetButton">Reset!</button>
+        </div>
+        
     </div>
-    <div id="gameAreaDiv">
-
+        <div id="gameAreaContainer">
+                <p id="p-player1Score">Player ❌:</p>
+            <div id="gameAreaDiv">
+            
+        </div>
+        <p id="p-player2Score">Player ⭕:</p>
     </div>
 </body>
 </html>
